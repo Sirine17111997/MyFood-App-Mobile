@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/Inscription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Inscription"
+        android:textColor="#090909"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lin2"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/background_edittext"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/username"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:background="@drawable/background_edittext"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textColor="#040404"
+            android:textColorHint="#555454"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/password1"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edittext"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/passwordconfirm"
+            android:layout_width="match_parent"
+            android:layout_height="69dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edittext"
+            android:ems="10"
+            android:hint="Confirm password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/inscrire"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/raduisbutton"
+            android:text="S'inscrire"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+
+</LinearLayout>

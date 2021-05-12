@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lin3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical"
+    tools:context=".register">
+
+    <TextView
+        android:id="@+id/textconnexion"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:gravity="center"
+        android:text="Connexion"
+        android:textColor="#090909"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/lin4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="6dp"
+        android:background="@drawable/background_edittext"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/usernameconnexion"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:background="@drawable/background_edittext"
+            android:ems="10"
+            android:hint="username"
+            android:inputType="textPersonName"
+            android:padding="5dp"
+            android:textColor="#040404"
+            android:textColorHint="#555454"
+            android:textSize="24sp" />
+
+        <EditText
+            android:id="@+id/password"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/background_edittext"
+            android:ems="10"
+            android:hint="password"
+            android:inputType="textPassword"
+            android:padding="5dp"
+            android:textSize="24sp" />
+
+
+        <Button
+            android:id="@+id/connexion"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/raduisbutton"
+            android:text="Connexion"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:layout_marginBottom="-50dp"
+            android:gravity="center"
+            android:text="si vous n'avez pas un compte"
+            android:textColor="#0B0A0A"
+            android:textSize="14sp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/register "
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/raduisbutton"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="sign Up"
+            android:textColor="#0B0A0A"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+</LinearLayout>
